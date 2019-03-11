@@ -1,0 +1,53 @@
+------ OLD BOARD ------
+RA0 AIO_Influx
+RA1 AIO_Reflex
+RA2 DAC
+RA3 AIO_Detonator
+RA4 LED_ReflexCon
+RA5 LED_AntiCutPass
+RA6 DIO_AntiCutOut
+RA7 DIO_AntiCutDriveIn
+RB0 BUTTON_Ink
+RB1 BUTTON_Reflex
+RB2 BUTTON_AntiCut
+RB3 LED_InkFail
+RB4 LED_Bat
+RB5 LED_AntiCutFail
+RB6 
+RB7 
+RC0 DIO_AntiCutIn
+RC1 LED_AntiCutDrive
+RC2 LED_Detonator
+RC3 AIO_Battery
+RC4 LED_ReflexBlocked
+RC5 LED_InkPass
+RC6 
+RC7 
+
+------ NEW BOARD ------
+RA0 AIO_Ink
+RA1 AIO_Reflex
+RA2 DAC AIO_DriveInk
+RA3 AIO_Detonator
+RA4 DIO_AntiCutOut
+RA5 AIO_Battery
+RA6 DIO_AntiCutIn
+RA7 DIO_AntiCutDriveIn
+RB0 BUTTON_Ink
+RB1 BUTTON_Spare
+RB2 BUTTON_AntiCut
+RB3 LED_InkFail
+RB4 LED_InkPass
+RB5 LED_AntiCutFail
+RB6 
+RB7 
+RC0 LED_ReflexCon
+RC1 LED_ReflexBlocked
+RC2 LED_AntiCutDrive
+RC3 LED_Detonator
+RC4 LED_Bat
+RC5 LED_AntiCutPass
+RC6 
+RC7 
+
+
