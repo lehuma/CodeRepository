@@ -84,6 +84,7 @@ void main (void)
     SYSTEM_Initialize();
     
 	APP_Initialize();
+	
     SCHEDULE_Subscribe(&heartbeatSchedule,READ_VOLTAGE_TIME,SendHeartbeatMsg);
 
     SCHEDULE_Start();
@@ -95,8 +96,6 @@ void main (void)
 		//DIO_Manager();
     }
 }
-
- 
  
  
 /* ************************************************************************** */
